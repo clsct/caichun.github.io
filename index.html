@@ -1,43 +1,42 @@
----
-layout: default
-title: HUNAU
----
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+    <style>
+        .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 200px;
+            border: 15px solid #B22727;
+        }
 
-<div id="home">
-  <h1>博文日志</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+            .circle > div {
+                color: #B22727;
+                font: bolder 50px arial;
+                transform: matrix(0.642788,-0.766044,0.766044,0.642788,0,95);
+                -ms-transform: matrix(0.642788,-0.766044,0.766044,0.642788,0,95);
+                -moz-transform: matrix(0.642788,-0.766044,0.766044,0.642788,0,95);
+                -o-transform: matrix(0.642788,-0.766044,0.766044,0.642788,0,95);
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
 
-  <h1>计划任务</h1>
-  <ul class="posts">
-    <li><span>02 Sep 2013</span> &raquo; <a href="http://www.wired.com/wiredenterprise/2013/09/github-for-anything/all/">Article: WIRED - GitHub Is Going Mainstream</a></li>
-    <li><span>09 Nov 2011</span> &raquo; <a href="http://vimeo.com/39016099">Video: RubyConf Argentina - Optimizing For Happiness</a></li>
-    <li><span>01 Oct 2011</span> &raquo; <a href="http://confreaks.com/videos/712-rubyconf2011-github-flavored-ruby">Video: RubyConf - GitHub Flavored Ruby</a></li>
-    <li><span>23 Nov 2010</span> &raquo; <a href="http://vimeo.com/17118008">Video: Erlang Factory - Mastering Git Basics</a></li>
-  </ul>
-
-  <h1>书评文论</h1>
-  <ul class="posts">
-    <li><span>12 Sep 2013</span> &raquo; <a href="http://www.youtube.com/watch?v=k2vJNNAQZlg">Video: Fox Business News interview</a></li>
-    <li><span>02 Sep 2013</span> &raquo; <a href="http://www.wired.com/wiredenterprise/2013/09/github-for-anything/all/">Article: WIRED - GitHub Is Going Mainstream</a></li>
-    <li><span>25 Jul 2013</span> &raquo; <a href="http://www.youtube.com/watch?v=7DoB0SCUtOk&list=SP055Epbe6d5aclKNAa8msO1VvDOJ8sYlS&index=23">Video: O'Reilly Media - OSCON 2013 Interview</a></li>
-    <li><span>28 Dec 2012</span> &raquo; <a href="http://bits.blogs.nytimes.com/2012/12/28/github-has-big-dreams-for-open-source-software-and-more/">Article: NYTimes - Dreams of ‘Open’ Everything</a></li>
-    <li><span>20 Oct 2012</span> &raquo; <a href="http://startupschool.org/2012/preston_werner/">Video: Startup School 2012 - People, Product, Philosophy</a></li>
-    <li><span>27 Sep 2012</span> &raquo; <a href="http://www.youtube.com/watch?v=Ln-B_fs9QMY&feature=youtu.be">Video (Panel): Orrick - How to Build a Great Startup Culture</a></li>
-  </ul>
-
-  <h1>推荐站点</h1>
-  <ul class="posts">
-    <li><a href="http://nlp.stanford.edu/">NLP:</a> The Stanford Natural Language Processing Group.</li>
-    <li><a href="http://www.nltk.org/nltk_data/">NLTK Corpora:</a> NLTK has built-in support for dozens of corpora and trained models.</li>
-    <li><a href="http://www.let.uu.nl/uilots/lab/courseware/phonetics/">phonetics:</a>Tutorial for self study: basics of phonetics and how to use Praat.</li>
-    <li><a href="http://www.linguistics.ucla.edu/faciliti/facilities/acoustic/praat.html">Praat script resources:</a> Online collections of Praat scripts.</li>
-    <li><a href="http://linguistics.as.nyu.edu/page/home">NYU Department of Linguistics:</a> Focusing on both the structural and the social aspects of language as well as their interaction.</li>
-    <li><a href="http://www.nsfc.gov.cn">国家自然科学基金:</a> 堪称中国科学研究的风向标。</li>
-    <li><a href="http://media.open.com.cn/media_file/rm/huashi0703/yuyanxgl/index.htm">华中师范大学文学院《语言学概论》网络课程 :</a> 丰富的在线课件资源。</li>
-    <li><a href="http://www.corpus4u.org/forum/">语料库语言学在线论坛:</a> 理论探讨、专题研究、语料库检索、词性标注。</li>
-  </ul>
-</div>
+        .block {
+            width: 60px;
+            display: inline-block;
+            height: 15px;
+            background-color: #B22727;
+            margin: 12px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="circle">
+        <div>
+            <span class="block"></span><span>404</span><span class="block"></span>
+        </div>
+    </div>
+</body>
+</html>
